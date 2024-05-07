@@ -85,7 +85,7 @@ class _PageListMealsState extends State<PageListMeals> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-              width: 150,
+              width: 100,
               child: Image.network(mealsData.strMealThumb!),
             ),
             Text(
